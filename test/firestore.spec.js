@@ -101,6 +101,7 @@ describe('editPost', () => {
   it('updatePost deberia ser una función', () => {
     expect(typeof editPost).toBe('function');
   });
+
   // it('Debería poder actualizar un post', () => {
   //   editPost('a3b2c3', 'No quiero compartir nada');
   //   getCollection().then((docRef) => {
@@ -128,4 +129,5 @@ describe('editLike', () => {
   //       }
   //     });
   //   });
+
 });
